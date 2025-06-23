@@ -1,21 +1,16 @@
 git pull
 
 create venv
-
-python -m venv venv
-
-
+-python -m venv venv
 
 activate venv
-source venv/bin/activate   # On Mac/Linux
-venv\Scripts\activate      # On Windows
+-source venv/bin/activate   # On Mac/Linux
+=venv\Scripts\activate      # On Windows
 
 
 install
-
-pip install -r requirements.txt
+-pip install -r requirements.txt
 
 
 run 
-
-streamlit run app.py
+-streamlit run app.py
